@@ -19,13 +19,15 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 
 PClose=[]
-
+print("Input the Symbol of the company")
 symbol=input()
 
 def start():
-    
+    print("Enter the year you would like to use")
     Y=int(input())
+    print("Enter the month you would like to use")
     M=int(input())
+    print("Enter the day you would like to use")
     D=int(input())
 
     start = datetime.datetime(Y,M,D)
